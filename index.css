@@ -57,7 +57,7 @@ button {
   width: 352px;
   height: 35px;
   border-radius: 10px;
-  background-color: #8b54ff;
+  background-color: #252eff;
   border: none;
   color: #ffffff;
   font-size: 15px;
@@ -67,7 +67,7 @@ button {
   align-items: center;
 }
 button:hover {
-  background-color: #6f3bff;
+  background-color: #020555;
   cursor: pointer;
 }
 
@@ -80,7 +80,7 @@ p {
 }
 a {
   text-decoration: none; 
-  color: #6f3bff; 
+  color: #252eff !important; 
   font-weight: 500;
 }
 a:hover {

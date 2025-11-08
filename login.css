@@ -47,26 +47,40 @@ input::placeholder {
   color: #000000;
   opacity: 70%;
 }   
-button {
+.button  {
+  display: inline-block;
   width: 153px;
   height: 38px;
+  line-height: 38px; /* centers text vertically */
   border-radius: 10px;
   background-color: #252eff;
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
+  text-decoration: none;
   border: none;
-  cursor: pointer;
+  cursor: pointer !important;
   margin-left: 100px;
-  margin-bottom: 20px;
-
-  
 }
-button:hover {
-  background-color: #4b52e8;
+
+.button:hover {
+  background-color: #030975;
+  text-decoration: none;
 }
 a {
   text-decoration: none; 
-  color: #ffffff; 
-  font-weight: 500;
+  color: #252eff; 
+  font-weight: 100;
+  
+}
+a:hover {
+  text-decoration: underline;
+}
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #000000;
+  opacity: 70%;
 }
